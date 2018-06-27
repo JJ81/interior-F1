@@ -23,10 +23,10 @@
                     <label for="home">주거공간</label>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="addr" class="form-control" placeholder="공사지역 간략주소 (OO시 OO동까지)" required />
+                    <input type="text" name="addr" class="form-control" placeholder="공사지역 간략주소 (OO시 OO동까지)" required maxlength="20" />
                 </div>
                 <div class="form-group">
-                    <input type="tel" name="phone" class="form-control" placeholder="전화번호" required />
+                    <input type="tel" name="phone" class="form-control js-input-phone" placeholder="전화번호" required maxlength="13" />
                 </div>
                 <div class="form-group">
                     <textarea name="comment" class="form-control" cols="30" rows="10" placeholder="기타 요청 사항"></textarea>
