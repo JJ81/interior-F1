@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+hr{
+    display: none;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+#header,
+#footer,
+#contents{
+    width: 900px;
+    margin: 0 auto;
+}
+
+#header{
+    position: relative;
+    height: 100px;
+}
+
+#header .logo{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+#header .top-signal{
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
+
+.interior-info{
+    position: relative;
+    height: 90px;
+}
+
+.interior-info .desc{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.interior-info .txt-phone-info{
+    position: absolute;
+    top: 10px;
+    left: 420px;
+}
+
+.interior-info .btn-free-request{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#footer{
+    position: relative;
+    height: 95px;
+    padding: 55px 0 30px 20px;
+    box-sizing: border-box;
+}
+
+#footer .logo-ft{
+    float: left;
+    width: 120px;
+}
+
+#footer .addr{
+    float: left;
+}
+
+#footer address{
+    font-size: 13px;
+    color: #adadad;
+}
+
+#footer .email{
+    color: #adadad;
+    text-decoration: underline;
+}
+
+#footer .email:hover{
+    color: #444;
+}
+
+.menu-trailer{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-wrp{
+    position: absolute;
+    width: 98px;
+    top: 0;
+    right: -108px
+}
+
+.menu-wrp .menu-list{
+    margin-bottom: 2px;
+}
+
+.logo-list{
+    text-align: center;
+}
+
+
+.career-list{
+    line-height: 30px;
+    color: #444;
+    font-size: 16px;
+}
+
+.page-header{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c3c3c3;
+    font-weight: 700;
+    color: #444;
+}
+
+.sub-page-desc{
+    font-size: 16px;
+    color: #666;
+    font-weight: normal;
+}
+
+.thumbnail-list{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.section-header{
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.addr-section{
+    padding: 25px 0 50px;
+    text-align: center;
+}
+
+.request-area{
+    padding: 20px;
+}
+
+.center{
+    text-align: center;
+}
