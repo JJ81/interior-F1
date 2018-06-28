@@ -7,22 +7,35 @@
             <ul id="sidebarnav">
                 <li class="nav-devider"></li>
                 <li class="nav-label">Home</li>
+<!--                <li>-->
+<!--                    <a class="has-arrow" href="--><?php //echo ROOT;?><!--admin/notice/list.php" aria-expanded="false">-->
+<!--                        <i class="fa fa-tachometer"></i>-->
+<!--                        <span class="hide-menu">공지사항-->
+<!--                        </span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a class="has-arrow" href="--><?php //echo ROOT;?><!--admin/banner/index.php" aria-expanded="false">-->
+<!--                        <i class="fa fa-tachometer"></i>-->
+<!--                        <span class="hide-menu">배너관리-->
+<!--                        </span>-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a class="has-arrow" href="--><?php //echo ROOT;?><!--admin/banner/index.php" aria-expanded="false">-->
+<!--                        <i class="fa fa-tachometer"></i>-->
+<!--                        <span class="hide-menu">배너관리-->
+<!--                        </span>-->
+<!--                    </a>-->
+<!--                </li>-->
                 <li>
-                    <a class="has-arrow" href="<?php echo ROOT;?>admin/notice/list.php" aria-expanded="false">
+                    <a class="has-arrow" href="<?php echo ROOT;?>admin/customer/index.php" aria-expanded="false">
                         <i class="fa fa-tachometer"></i>
-                        <span class="hide-menu">공지사항
-<!--                            <span class="label label-rouded label-primary pull-right">2</span>-->
+                        <span class="hide-menu">문의관리
                         </span>
                     </a>
                 </li>
-                <li>
-                    <a class="has-arrow" href="<?php echo ROOT;?>admin/banner/index.php" aria-expanded="false">
-                        <i class="fa fa-tachometer"></i>
-                        <span class="hide-menu">배너관리
-                            <!--                            <span class="label label-rouded label-primary pull-right">2</span>-->
-                        </span>
-                    </a>
-                </li>
+
 <!--                <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard <span class="label label-rouded label-primary pull-right">2</span></span></a>-->
 <!--                    <ul aria-expanded="false" class="collapse">-->
 <!--                        <li><a href="index.html">Ecommerce </a></li>-->

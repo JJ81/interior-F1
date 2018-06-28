@@ -19,11 +19,16 @@ use Msg\Database\DBConnection as DBconn;
 $db = new DBconn();
 
 $insert_query =
-    "insert into `cms_customer_req` (`tel`) values (:phone);";
-$value = array(':phone'=>$phone);
+    "insert into `cms_customer_req` (`tel`,`addr`,`comment`,`space`) values (:phone, :addr, :comment, :space);";
+$value = array(
+    ':phone'=>$phone,
+    ':addr'=>$addr,
+    ':comment'=>$comment,
+    ':space'=>$space
+);
 $insertId = $db->insert($insert_query, $value);
 $db=null;
 
-AlertMsgAndRedirectTo('./index.php', '무료견적문의가 접수되었습니다.');
+AlertMsgAndRedirectTo(ROOT . 'index.php', '무료견적문의가 접수되었습니다.');
 
 ?>
