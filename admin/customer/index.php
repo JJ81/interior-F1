@@ -137,6 +137,7 @@ $db=null;
         <!-- End Container fluid  -->
 
         <?php require_once ('../inc/footer.php'); ?>
+        <?php require_once ('../modal/modal_modify_pass.php'); ?>
     </div>
     <!-- End Page wrapper  -->
 </div>

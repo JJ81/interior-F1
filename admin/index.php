@@ -6,7 +6,7 @@ require_once('../commons/session.php');
 define('PAGE','INDEX');
 
 if(empty($_SESSION['user'])){
-    AlertMsgAndRedirectTo(ROOT.'/admin/login.php', '로그인이 필요합니다.');
+    Redirect(ROOT.'admin/login.php');
     exit;
 }
 
